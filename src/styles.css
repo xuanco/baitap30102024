@@ -1,0 +1,100 @@
+/* CSS chung cho toàn bộ giao diện */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e9ebee;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.facebook-logo {
+  font-size: 48px; /* Kích thước lớn cho chữ "facebook" */
+  color: #1877f2; /* Màu xanh dương cho chữ "facebook" */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* Phần login/register */
+.login-container, .register-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  top: 20vh;
+  margin-bottom: 20vh;
+}
+
+h1 {
+  color: #1877f2;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #606770;
+  font-size: 14px;
+}
+
+/* Input và Button */
+input {
+  display: block;
+  width: 85%;
+  padding: 10px;
+  margin: 8px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 90%;
+  padding: 12px;
+  background-color: #42b72a; /* Màu xanh lá cho nút Đăng nhập */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #36a420;
+}
+
+/* Nút Tạo tài khoản mới màu xanh dương */
+button:last-child {
+  background-color: #1877f2; /* Màu xanh dương cho nút Tạo tài khoản mới */
+}
+
+button:last-child:hover {
+  background-color: #165caa;
+}
